@@ -11,7 +11,7 @@ const ProductDetail = () => {
     color,
     resolution,
     camera,
-    chip,
+    chipset,
     ram,
     battery,
     price,
@@ -41,7 +41,7 @@ const ProductDetail = () => {
             Camera : <span>{camera}</span>
           </li>
           <li>
-            Chip : <span>{chip}</span>
+            Chip : <span>{chipset}</span>
           </li>
           <li>
             Ram : <span>{ram}</span>
